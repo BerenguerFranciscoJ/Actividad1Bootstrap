@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+    <div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="color: #dd6e42">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="color: #dd6e42;"><img src="images\barber.svg" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio" style="color:#dd6e42">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros " style="color:#dd6e42">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeria" style="color:#dd6e42">Galería</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a style="color:#dd6e42" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sucursales
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Centro</a></li>
+                  <li><a class="dropdown-item" href="#">Shopping</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid" id="textobanner">
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <h1 id="titular" style="font-family: 'Bree Serif', serif; color: #eaeaea">EL MEJOR LUGAR PARA TU CORTE DE PELO</h1>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <button onclick="location.href='#nosotros'" type="button" class="btn btn-primary btn-lg" style="background-color: #dd6e42; border-color: #dd6e42; font-family: 'Bree Serif', serif;">Conocenos</button>
+            </div>
+          </div>
+      </div>
+
+      <img class="background" src="images\pexels-dmitry-zvolskiy-1805600.jpg">
+    </header>
+
+    <section id="nosotros">
+        <div class="container-fluid" id="textonosotros">
+            <div class="row">
+                <div class="col-md-auto">
+                  <h1 style="font-family: 'Bree Serif', serif; color: #eaeaea">Quiénes Somos</h1>
+                </div>
+              </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-12"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio, sed earum ut saepe veritatis tenetur vitae maiores ex sint, illum aut dignissimos reiciendis, libero sequi. Iusto itaque alias adipisci. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio, sed earum ut saepe veritatis tenetur vitae maiores ex sint, illum aut dignissimos reiciendis, libero sequi. Iusto itaque alias adipisci.Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Incidunt optio, sed earum ut saepe veritatis tenetur vitae maiores ex sint, illum aut dignissimos reiciendis, libero sequi. Iusto itaque alias adipisci.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio, sed earum ut saepe veritatis tenetur vitae maiores ex sint, illum aut dignissimos reiciendis, libero sequi. Iusto itaque alias adipisci.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio, sed earum ut saepe veritatis tenetur vitae maiores ex sint, illum aut dignissimos reiciendis, libero sequi. Iusto itaque alias adipisci.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio, sed earum ut saepe veritatis tenetur vitae maiores ex sint, illum aut dignissimos reiciendis, libero sequi. Iusto itaque alias adipisci.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio, sed earum ut saepe veritatis tenetur vitae maiores ex sint, illum aut dignissimos reiciendis, libero sequi. Iusto itaque alias adipisci.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio, sed earum ut saepe veritatis tenetur vitae maiores ex sint, illum aut dignissimos reiciendis, libero sequi. Iusto itaque alias adipisci.</p></div>
+                <div class="col-md-4 col-sm-12" style="display:flex; align-items: baseline; padding-top: 5%;"><img src="images\barber.svg"></div>
+            </div>
+        </div>
+        <img class="background" src="images\pexels-thgusstavo-santana-1813272.jpg">  
+    </section>
+
+    <section id="galeria">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <section style="display:flex; justify-content: center;" id="contactob"> <button class="btn btn-primary contactobtn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="position: absolute">¡Contactanos!</button></section>
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images\pexels-cottonbro-3992874.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images\pexels-luis-quintero-1453005.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images\pexels-mídia-897271.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+
+    <section id="contacto">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Contacto</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <form>
+          <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container-fluid" id="footer">
+
+      <div class="row align-items-center footercontent">
+        <div class="col-md-4 col-sm-12 footercol">
+          <b>Seguinos</b> <br>
+          En nuestras redes <br>
+          <span><img src="images\facebook.svg" alt="face" style="width: 25px; margin-right: 15px;"><img src="images\instagram.svg" alt="ins" style="width: 25px;"></span>
+
+        </div>
+        <div class="col-md-4 col-sm-12 footercol">
+          <b>Visitanos en nuestras sucursales!</b> <br>
+          Centro: Calle250 1234 <br>
+          Shopping: Calle516 1248 
+        </div>
+        <div class="col-md-4 col-sm-12" style="text-align: right">
+          <img src="images\barber.svg" id="footerlogo">
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>
